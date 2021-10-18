@@ -1,0 +1,270 @@
+.main {
+	width: 980px;
+	height: 455px;
+	margin-left: 220px;
+	margin-top: 10px;
+}
+.focus {
+	float: left;
+	width: 721px;
+	height: 455px;
+	background-color: pink;
+}
+.newflash {
+	float: right;
+	width: 250px;
+	height: 455px;
+}
+.newflash .new {
+	height: 165px;
+	border: 1px solid #e4e4e4;
+}
+.newflash .lifeservice {
+	height: 209px;
+	border: 1px solid #e4e4e4;
+	border-top: 0;
+	overflow: hidden;
+}
+.news-hd {
+	height: 33px;
+	border-bottom: 1px dotted #c4c4c4;
+	line-height: 33px;
+    padding: 0 15px;
+}
+.news-hd h5 {
+	float: left;
+	font-size: 14px;
+}
+.news-hd .more {
+	float: right;
+}
+.news-hd .more::after {
+	font-family: 'icomoon';
+	content: '\e920';
+}
+.newflash .bargain {
+	margin-top: 6px;
+}
+.news-bd {
+	padding: 5px 15px 0;
+}
+.newflash .news-bd ul li {
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.lifeservice ul li {
+	float: left;
+	width: 63px;
+	height: 71px;
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: center;
+}
+.lifeservice ul {
+    width: 256px;
+} 
+.lifeservice ul li i {
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	background-color: pink;
+	margin-top: 12px;
+}
+.lifeservice ul li .a {
+	background: url(../images/icons.png) -14px -14px;
+}
+.lifeservice ul li .b {
+	background: url(../images/icons.png) -80px -14px;
+}
+.lifeservice ul li .c {
+	background: url(../images/icons.png) -140px -14px;
+}
+.lifeservice ul li .d {
+	background: url(../images/icons.png) -205px -14px;
+}
+.lifeservice ul li .e {
+	background: url(../images/icons.png) -14px -87px;
+}
+.lifeservice ul li .f {
+	background: url(../images/icons.png) -80px -87px;
+}
+.lifeservice ul li .g {
+	background: url(../images/icons.png) -140px -87px;
+}
+.lifeservice ul li .h {
+	background: url(../images/icons.png) -205px -87px;
+}
+.lifeservice ul li .i {
+	background: url(../images/icons.png) -14px -160px;
+}
+.lifeservice ul li .j {
+	background: url(../images/icons.png) -80px -160px;
+}
+.lifeservice ul li .k {
+	background: url(../images/icons.png) -140px -160px;
+}
+.lifeservice ul li .l {
+	background: url(../images/icons.png) -205px -160px;
+}
+.comm {
+	height: 163px;
+	background-color: #ebebeb;
+	margin-top: 12px;
+}
+.comm_hd {
+	float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.comm_bd {
+	float: left;
+}
+.comm_bd li {
+	position: relative;
+	float: left;
+}
+.comm_bd li:nth-child(-n+3)::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 1px;
+	height: 145px;
+	background-color: #ddd;
+}
+.comm_bd li img {
+	width: 248px;
+	height: 163px;
+}
+.zhong {
+	height: 280px;
+	margin-top: 12px;
+}
+.zhong-hd {
+	height: 30px;
+	line-height: 30px;
+}
+.zhong-hd h5 {
+	float: left;
+	font-size: 16px;
+}
+.zhong-hd a {
+	float: right;
+	font-size: 12px;
+	color: gray;
+	padding-right: 10px;
+}
+.zhong-hd a::after {
+	font-family: 'icomoon';
+	content: '';
+	padding-left: 5px;
+}
+.zhong-bd {
+	height: 250px;
+	border: 1px solid #e4e4e4;
+}
+.zhong-bd ul li {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 250px;
+}
+.zhong-bd ul li:last-child {
+	width: 198px;
+}
+.zhong-bd ul li .img {
+	padding-left: 30px;
+	padding-top: 30px;
+	height: 140px;
+	width: 150px;
+}
+.zhong-bd ul li .img img {
+	width: 100%;
+	height: 100%;
+}
+.zhong-bd ul li p {
+    font-size: 14px;
+    color: gray;
+    padding-left: 30px;
+}
+.zhong-bd ul li .jia {
+    padding-top: 5px;
+    font-size: 20px;
+    color: red;
+    padding-left: 30px;
+}
+.zhong-bd li:nth-child(-n+5)::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 1px;
+	height:230px;
+	background-color: #ddd;
+}
+.jiage_hd {
+	height: 30px;
+	border-bottom: 2px solid #c81623;
+}
+.jiage_hd h3 {
+	float: left;
+	font-size: 18px;
+	font-weight: 400px;
+	color: #c81623;
+}
+.jiage_hd .tab_list li {
+	float: right;
+}
+.jiage_hd .tab_list li a {
+	margin: 0 15px;
+}
+.jiage_hd .tab_list li a::first {
+	color: red;
+}
+.floor .w {
+	margin-top: 30px;
+}
+.jiage_bd {
+	height: 361px;
+}
+.tab_list_item>div {
+	float: left;
+	text-align: center;
+}
+.col_210 {
+	width: 210px;
+}
+.col_329 {
+	width: 329px;
+}
+.col_221 {
+	width: 220px;
+	border-right: 1px solid #ccc;
+}
+.col_219 {
+	width: 219px;
+}
+.tab_list_item .col_210 ul li {
+	float: left;
+	width: 88px;
+	height: 34px;
+	border-bottom: 1px solid #ccc;
+	padding-right: 10px;
+	text-align: center;
+	line-height: 33px;
+}
+.tab_list_item .col_210 ul {
+	padding-left: 12px;
+}
+.bb {
+	display: block;
+	border-bottom: 1px solid #ccc;
+}

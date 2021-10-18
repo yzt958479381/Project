@@ -1,0 +1,39 @@
+#Body #login{
+			z-index: 11;
+			background: white;
+			position: absolute;
+			width: 300px;
+			height: 380px;
+			left:  60px;
+			top: 50px; 
+		}
+		#login .one{
+			font-size: 30px;
+			margin: 0 auto;
+			font-family: "幼圆";
+		}
+		#login #two{
+			width: 180px;
+			height: 30px;
+			margin: 0 0 0 7px;
+			padding: 0;
+			color:#999;
+		}
+		#login #three{
+			width: 180px;
+			height: 30px;
+			margin: 0 0 0 7px;
+			padding: 0;
+		}
+		#login .four{
+			font-size: 30px;
+			text-decoration: none;
+			color:black;
+		}
+		#login .five{
+			width: 260px;
+			height: 30px;
+			background: #006000;
+			font-size: 20px;
+			color:white;
+		}

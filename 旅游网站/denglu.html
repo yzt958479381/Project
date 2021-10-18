@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登陆界面</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	
+	<script>
+flag2=0
+	function login(){
+	if(flag2==3){
+		alert("无法再次输入密码！")
+		window.location.href="http:www.baidu.com"
+		}
+		else
+		{
+	if((document.form1.username.value=="fuge")&&
+(document.form1.pwd.value=="123456"))
+	{
+		alert("登录成功！")
+		window.location.href="index.html"
+	}else{
+		flag2=flag2+1
+		alert("您输入的用户名或密码错误，请重新输入！")
+		return false
+	} 
+	}
+	}
+	function disp_alert(){
+	{
+      alert("提示：账号是你的名字，密码是你的学号！")
+}
+	}
+</script>
+
+</head>
+<body>
+ <div style="width:1000px;text-align:center;border:red 1px solid">
+     <TABLE height=1000 width=2000 background=images/0.jpg border=0>
+     	<TR>
+     		<TD>
+     			
+	<form name="form1" method="post">
+	<div id="login">
+	<span class="one">账户登录</span>
+	<hr /><br /><br />
+ <form name="form1" method="post">
+ <p>
+<span>用户名</span><input type="text" name="username" 
+id="two" onfocus="this.value=''" value="admin"></input>
+<br /><br /></p>
+  <p>
+<span>密&nbsp&nbsp码</span><input type="password" name="pwd" id="three" onfocus="this.value=''"value=""></input>
+<br/><br /></span></p>
+<a class="four" href="javascript:;" onclick="disp_alert()">
+提示</a><br /><br />
+<input type="button" value="登   录" 
+class="five" onclick="login();"></input><br></div></div></form>	
+
+       </TD>
+     	</TR>
+     </TABLE>
+</div>
+</body>
+</html>
